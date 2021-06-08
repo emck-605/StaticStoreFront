@@ -1,0 +1,159 @@
+body{
+    background: rgb(58, 17, 104) url(img/bookstorebackground.png) no-repeat fixed top center;
+    padding: 0;
+    margin: 0;
+    background-size: 100% 100%;
+    color: white;
+    
+}
+
+/*header*/
+header {
+    padding: 2.5em 0 0.5em;
+    margin: 0 0 2.0em;
+    background: url(img/header.jpg) center 0px;
+}
+header h1 {
+    font-size: 100px;
+    margin-left: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/*navbar*/
+nav {
+    font-size: 1.7em;
+    text-align: center;
+    background-color: black;
+    padding: 5px 0 5px 0;
+}
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+nav li {
+    display: inline-block;
+    margin: 0;
+    padding-right: 70px;
+}
+nav li a, nav li a:visited {
+    text-decoration: none;
+}
+nav li a:hover {
+    color:rgb(19, 216, 190);
+}
+nav#utilityMenu {
+    float: right;
+    margin:-1.5em 0 0 0;
+    padding: 0.35em;
+    background-color: rgb(58, 17, 104);
+    height: 35px;
+    border-radius: 3px;
+}
+nav#utilityMenu li {
+    padding: 0;
+    vertical-align: middle;
+}
+nav#utilityMenu ul li input#search {
+    vertical-align: 5px;
+    width: 250px;
+}
+
+/*sidebar*/
+section#sidebar {
+    width: 220px;
+    height: 500px;
+    float: left;
+    position: relative;
+    display: block;
+    background: url(img/sidebar.jpg) center;
+    margin: 1.5em 0 3.0em 1.5em;
+    padding: 1.7em 0.5em 2.0em 1.7em;
+    border-radius: 4px;
+}
+section#sidebar h1 {
+    font-size: 50px;
+    text-align: center;
+    color:rgb(19, 216, 190)
+}
+section#sidebar h2 {
+    color:rgb(19, 216, 190);
+    text-align: center;
+}
+section#main {
+    margin-left: 100px;
+    padding: 20px;
+    border-radius: 2px;
+    display: inline-block;
+}
+section#main h1 {
+    font-size: 50px;
+    text-align: center;
+    color:rgb(19, 216, 190);
+    background-color: black;
+    border-radius: 4px;
+}
+section#main h2 {
+    font-size: 20px;
+    text-align: center;
+    color:rgb(19, 216, 190);
+    margin-top: 0;
+}
+section#main p {
+    text-align: center;
+    font-size: 15px;
+    color: white;
+    margin: 0;
+}
+section div.panel {
+    float: left;
+    position: relative;
+    width: 150px;
+    margin-right: 10px;
+    padding: 30px;
+    background-color:black;
+    border: solid black 1px;
+    border-radius: 4px;
+}
+section div.panel img.bookType {
+    width: 150px;
+}
+button {
+    color:rgb(19, 216, 190);
+    background-color: black;
+    display: inline-block;
+    margin: 20px 0 0 50px;
+    padding: 0.2em 0.5em;
+    border: 1px solid rgb(19, 216, 190);
+    text-transform: uppercase;
+}
+button:hover {
+    background-color: white;
+}
+
+/*footer*/
+footer {
+    background-color:rgb(58, 17, 104);
+    height: 25px;
+    font-size: 15px;
+    color:rgb(19, 216, 190);
+    text-align: center;
+    padding: 1.5em 2.0em;
+}
+footer ul#menuFooter {
+    display: inline-block;
+    list-style: none;
+    margin-left: 0.6em;
+    padding: 0;
+}
+footer ul li {
+    display: inline-block;
+    padding-right: 0.7em;
+    margin: 0;
+}
+footer a, footera:visited {
+    color:rgb(19, 216, 190);
+}
+footer a:hover {
+    color: white;
+}
